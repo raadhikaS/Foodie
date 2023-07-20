@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Food / Restaurant Website Design</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts     -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> For Foodies, By a Foodie </a>
+
+   <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#about">about</a>
+      <a href="#food">food</a>
+      <a href="#gallery">gallery</a>
+      <a href="#menu">menu</a>
+      <a href="#order">order</a>
+      <a href="#blogs">blogs</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header section ends    -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(./images/jollof.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>delicious cooking</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/bread.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>morning moment</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(./images/egusi.jpg) no-repeat;">
+            <div class="content">
+               <span>outstanding food</span>
+               <h3>authentic kitchen</h3>
+               <a href="#" class="btn">get started</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- About section start -->
+
+
+<section class="about" id="about">
+
+<div class="image">
+   <img src="./images/about-img.png" alt="">
+</div>
+
+<div class="content">
+   <h3 class="title">Welcome to our Restaurant</h3>
+   <p>"Indulge in a Culinary Delight - Welcome to Our Exquisite Restaurant! Discover a tantalizing fusion of flavors, impeccable service, and a warm ambiance that will leave you craving for more. Join us for an unforgettable dining experience that will tantalize your taste buds and create cherished memories."</p>
+      <a href="#" class="btn">read more</a>
+      <div class="icons-container">
+         <div class="icons">
+            <img src="./images/about-icon-1.png" alt="">
+            <h3>quality food</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-2.png" alt="">
+            <h3>food and drinks</h3>
+         </div>
+         <div class="icons">
+            <img src="./images/about-icon-3.png" alt="">
+            <h3>expert chef</h3>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+<!-- About section ends -->
+<!-- food section starts -->
+
+<section class="food" id="food">
+
+   <div class="heading">
+   <span>popular dishes</span>
+   <h3>our delicious food</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+     <div class="swiper-wrapper">
+
+      <div class="swiper-slide slide" data-name="food-1">
+         <img src="./images/food-img-1.png" alt="">
+         <h3>delicious food</h3>
+         <div class="price">Rs. 150</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-2">
+         <img src="./images/food-img-2.png" alt="">
+         <h3>delicious food</h3>
+         <div class="price">Rs. 150</div>
+      </div>
+
+      <div class="swiper-slide slide" data-name="food-3">
+         <img src="./images/food-img-3.png" alt="">
+         <h3>delicious food</h3>
+         <div class="price">Rs. 150</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-4">
+         <img src="./images/food-img-4.png" alt="">
+         <h3>delicious food</h3>
+         <div class="price">Rs. 150</div>
+      </div>
+      <div class="swiper-slide slide" data-name="food-5">
+         <img src="./images/food-img-5.png" alt="">
+         <h3>delicious food</h3>
+         <div class="price">Rs. 150</div>
+      </div>
+</div>
+
+   <div class="swiper-pagination"></div>
+
+</div>
+
+</section>
+
+<!-- food section ends -->
+<!-- food preview section starts -->
+
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="./images/food-img-1.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem?</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-2">
+      <img src="./images/food-img-2.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem?</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-3">
+      <img src="./images/food-img-3.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem?</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-4">
+      <img src="./images/food-img-4.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem?</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+   <div class="food-preview" data-target="food-5">
+      <img src="./images/food-img-5.png" alt="">
+      <h3>delicious food</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, exercitationem?</p>
+      <div class="price">$49.99</div>
+      <a href="#" class="btn">Buy now</a>
+   </div>
+
+</section>
+
+
+<!-- food preview section ends -->
+<!-- Gallery section starts -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>our gallery</span>
+      <h3>our untold stories</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="food-galler-img-1.jpg" class="box">
+         <img src="./images/food-galler-img-1.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+
+      <a href="food-galler-img-2.jpg" class="box">
+         <img src="./images/food-galler-img-2.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+      
+      <a href="food-galler-img-3.jpg" class="box">
+         <img src="./images/food-galler-img-3.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+      
+      <a href="food-galler-img-4.jpg" class="box">
+         <img src="./images/food-galler-img-4.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+      
+      <a href="food-galler-img-5.jpg" class="box">
+         <img src="./images/food-galler-img-5.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+      
+      <a href="food-galler-img-6.jpg" class="box">
+         <img src="./images/food-galler-img-6.jpg" alt="">
+         <div class="icon"> <i class="fas fa-plus"></i></div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- Gallery section ends -->
+<!-- Menu section starts -->
+
+<section class="menu" id="menu">
+
+   <div class="heading">
+      <span>our menu</span>
+      <h3>our popular dishes</h3>
+   </div>
+
+   <div class="swiper menu-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <h3 class="title">
+               breakfast
+            </h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Classic American Breakfast</h3>
+                  <p>Scrambled eggs, crispy bacon, fluffy pancakes served with maple syrup, and a side of fresh seasonal fruits.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Healthy Continental Delight</h3>
+                  <p>Greek yogurt topped with granola and mixed berries, a selection of whole-grain bread with avocado spread, and a refreshing fruit smoothie.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Hearty English Breakfast</h3>
+                  <p>Two sunny-side-up eggs, grilled sausages, baked beans, sautéed mushrooms, grilled tomatoes, and buttered toast.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Savory Mexican Brunch</h3>
+                  <p>Huevos Rancheros - fried eggs over corn tortillas, smothered in salsa, black beans, guacamole, and garnished with cilantro.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Flavorful Middle Eastern Spread</h3>
+                  <p>Falafel with hummus and tahini, warm pita bread, cucumber-tomato salad, and a side of labneh.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Indian Breakfast Feast</h3>
+                  <p>Masala dosa - thin rice crepe filled with spiced potatoes, served with coconut chutney and sambar, accompanied by a steaming cup of masala chai.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">lunch</h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Butter Chicken</h3>
+                  <p>Tender chicken cooked in a creamy tomato-based gravy, infused with aromatic spices. Served with fragrant basmati rice and buttery naan.</p>
+                  </div>
+                  <div class="price">Rs. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Vegetable Biryani</h3>
+                  <p>An aromatic blend of long-grain basmati rice, mixed vegetables, and an assortment of spices. Accompanied by raita and papadum.</p>
+                  </div>
+                  <div class="price">Rs. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Palak Paneer</h3>
+                  <p>Soft paneer (Indian cottage cheese) simmered in a luscious spinach gravy, seasoned with traditional Indian spices. Best enjoyed with steamed rice or naan.</p>
+                  </div>
+                  <div class="price">Rs. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Chole Bhature</h3>
+                  <p>Flavorful chickpea curry (chole) served with fluffy, deep-fried bhature (leavened bread). A popular North Indian delicacy that's both satisfying and hearty.</p>
+                  </div>
+                  <div class="price">Rs. 120</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">dinner</h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Dal Makhani</h3>
+                  <p>Slow-cooked black lentils and kidney beans in a luscious blend of butter and cream, accompanied by garlic naan.</p>
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Vegetable Korma</h3>
+                  <p>A delightful medley of mixed vegetables simmered in a creamy coconut and cashew-based gravy, best enjoyed with fluffy garlic naan.</p>
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Paneer Tikka Masala</h3>
+                  <p>Soft cubes of paneer (Indian cottage cheese) marinated in spices and grilled to perfection, then simmered in a luscious tomato and onion gravy.</p>
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Malai Kofta</h3>
+                  <p>Vegetable and paneer dumplings served in a creamy, nutty sauce, making it a delectable and indulgent choice.</p>
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Tandoori Platter</h3>
+                  <p>A medley of succulent tandoori delights, including marinated chicken tikka, tender seekh kebabs, and juicy tandoori prawns. Served with mint chutney and naan.</p>
+                  </div>
+                  <div class="price">Rs. 180</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">drinks</h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Sparkling Lemonade</h3>
+                  <p>A zesty blend of freshly squeezed lemons, sparkling water, and a hint of sweetness to quench your thirst.</p>
+                  </div>
+                  <div class="price">RS. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Iced Tea Fusion </h3>
+                  <p>A delightful fusion of black tea, herbal infusions, and fruit flavors served over ice, perfect for a relaxing sip.</p>
+                  </div>
+                  <div class="price">RS. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Soda Spritzers</h3>
+                  <p>Classic soda flavors with a twist of fresh fruit essence, offering a bubbly and fruity delight.</p>
+                  </div>
+                  <div class="price">RS. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Frosty Berry Blast</h3>
+                  <p> A luscious mix of seasonal berries, crushed ice, and a touch of mint to keep you cool and refreshed.</p>
+                  </div>
+                  <div class="price">RS. 150</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Cucumber Lime Cooler </h3>
+                  <p> A revitalizing concoction of cool cucumber, zesty lime, and a dash of soda water for a truly refreshing experience.</p>
+                  </div>
+                  <div class="price">RS. 150</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <h3 class="title">deserts</h3>
+
+            <div class="box-container">
+               <div class="box">
+                  <div class="info">
+                     <h3>Decadent Chocolate Lava Cake</h3>
+                  <p>A rich and moist chocolate cake oozing with melted chocolate at the center, served with a scoop of velvety vanilla ice cream.</p>
+                  </div>
+                  <div class="price">RS. 200</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Creamy New York Cheesecake</h3>
+                  <p>A classic creamy cheesecake with a buttery graham cracker crust, topped with a luscious raspberry coulis.</p>
+                  </div>
+                  <div class="price">RS. 200</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Charming Red Velvet Cupcake</h3>
+                  <p> A moist red velvet cupcake crowned with creamy cream cheese frosting and a sprinkle of red velvet crumbs.</p>
+                  </div>
+                  <div class="price">RS. 200</div>
+               </div>
+               <div class="box">
+                  <div class="info">
+                     <h3>Heavenly Fruit Salad</h3>
+                  <p>A medley of fresh seasonal fruits, topped with a honey-lime dressing and garnished with mint leaves.</p>
+                  </div>
+                  <div class="price">RS. 200</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+   
+
+</section>
+
+
+
+
+
+
+<!-- Menu section ends -->
+<!-- order section starts -->
+
+<section id="order" class="order">
+   <div class="heading">
+      <span>order now</span>
+      <h3>fast home delivery</h3>
+   </div>
+
+   <form action="">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span>order details</span>
+               <input type="text" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63432.57418106235!2d3.4217404999999994!3d6.4535713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc9b07cf55%3A0xc4ae10b395418b9b!2sLagos%20Island!5e0!3m2!1sen!2sng!4v1643274968903!5m2!1sen!2sng" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <input type="submit" value="order now" class="btn">
+   </form>
+</section>
+
+<!-- order section ends-->
+<!-- blog section starts-->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>our blogs</span>
+      <h3>our latest posts</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-1.jpg" alt="">
+               <span>Burger</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chef Kunal </a>
+               </div>
+               <a href="#" class="title">Sizzling Burger</a>
+               <p>Juicy, flame-grilled patty nestled between soft buns, topped with melted cheese and fresh veggies, creating a sizzling burger sensation.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-2.jpg" alt="">
+               <span>sandwich</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chef Sudha </a>
+               </div>
+               <a href="#" class="title">Savoury Sandwich</a>
+               <p>An irresistible combination of freshly baked bread, savory fillings, and delightful condiments, creating a mouthwatering handheld delight - the savoury sandwich.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-3.jpg" alt="">
+               <span>chicken</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by chef Ravi </a>
+               </div>
+               <a href="#" class="title">Smoking Chicken</a>
+               <p>Juicy and succulent chicken, perfectly seasoned and grilled to perfection, a mouthwatering delight for all poultry enthusiasts.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-4.jpg" alt="">
+               <span>ice-cream</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chef Suman </a>
+               </div>
+               <a href="#" class="title">Creamy Ice-Cream</a>
+               <p>Indulge in the luscious delight of our creamy ice cream, a delectable treat that will melt in your mouth.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-5.jpg" alt="">
+               <span>pizza</span>
+            </div>
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chef Kumar </a>
+               </div>
+               <a href="#" class="title">Scrumptious Pizza</a>
+               <p>Experience the joy of savoring our scrumptious pizza, topped with a delightful blend of premium ingredients and melted cheese.</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="./images/blog-img-6.jpg" alt="">
+               <span>coffee</span>
+            </div> 
+            <div class="content">
+               <div class="icon">
+                  <a href="#"> <i class="fas fa-calendar"></i> 28th January, 2022 </a>
+                  <a href="#"> <i class="fas fa-user"></i> by Chef Rahul </a>
+               </div>
+               <a href="#" class="title">A Rich cup of coffee</a>
+               <p>Savor the indulgent, aromatic richness of our perfectly brewed cup of coffee, a truly satisfying treat for coffee connoisseurs."</p>
+               <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+
+
+
+
+
+<!-- blog section ends-->
+<!-- footer section starts-->
+
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-clock"></i>
+            <h3>opening hour</h3>
+            <p>07:00am to 10:00pm</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+            <h3>phone</h3>
+            <p>+91-1234567879</p>
+            <p>+91-2345689765</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+            <h3>email</h3>
+            <p>123@gmail.com</p>
+            <p>456@gmail.com</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-map"></i>
+            <h3>address</h3>
+            <p>Solan, Himachal Pradesh</p>
+      </div>
+
+   </div>
+
+   <div class="share">
+      <a href="https://web.facebook.com/olumide.micheal.733" target="_blank" class="fab fa-facebook-f"></a>
+      <a href="https://twitter.com/OlumideMicheal_" target="_blank" class="fab fa-twitter"></a>
+      <a href="https://www.instagram.com/olumidemicheal_/?hl=en" target="_blank" class="fab fa-instagram"></a>
+      <a href="https://www.linkedin.com/in/olumide-micheal-650b001b2/" target="_blank" class="fab fa-linkedin"></a>
+   </div>
+
+   <div class="credit">created by <span>Raadhika Singh</span> | all rights reserved.</div>
+
+</section>
+
+
+<!-- footer section ends-->
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="./js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+
+
+</body>
+</html>
